@@ -1,0 +1,26 @@
+{
+  "name": "sample-oauth-implementation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon ./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/express-session": "^1.17.4",
+    "@types/node": "^17.0.38",
+    "@types/passport": "^1.0.8",
+    "@types/pg": "^8.6.5",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "jwt": "^0.2.0",
+    "passport": "^0.6.0",
+    "pg": "^8.7.3"
+  }
+}
